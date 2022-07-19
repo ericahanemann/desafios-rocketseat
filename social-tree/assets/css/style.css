@@ -3,6 +3,7 @@
     --color1: #BB99DD;
     --white: #fff;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@ body {
     align-items: center;
     margin-top: 50px;
 }
+
 .picture img {
     width: 200px;
     height: 200px;
@@ -22,15 +24,18 @@ body {
     padding: 3px;
     outline: 3px solid var(--color1);
 }
+
 .instagram {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
 .instagram a{
     text-decoration: none;
     color: var(--color1);
 }
+
 .instagram a:hover {
     color: var(--white);
 }
@@ -71,6 +76,7 @@ body {
     margin-top: 45px;
     margin-bottom: 50px;
 }
+
 .sm {
     margin-right: 15px;
 }
