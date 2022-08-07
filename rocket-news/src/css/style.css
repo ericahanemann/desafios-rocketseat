@@ -51,6 +51,43 @@ section p {
     color: var(--text-color);
 }
 
+section#form {
+    position: relative;
+}
+
+section#form p {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+section#form .email-form {
+    position: absolute;
+    display: flex;
+}
+
+section#form .rectangle {
+    width: 5px;
+    height: 48px;
+    background-color: var(--title-color);
+}
+
+section#form #email {
+    border: 0;
+    width: 750px;
+    height: 48px;
+    padding: 10px;
+    color: var(--form-color);
+}
+
+section#form .btn-send {
+    outline: 0;
+    border: 0;
+    width: 48px;
+    height: 48px;
+    background-color: var(--bg-button-color);
+    padding-top: 3px;
+}
+
 .item2 {
     background-image: url('../images/read_news.jpg');
     background-size: cover;
