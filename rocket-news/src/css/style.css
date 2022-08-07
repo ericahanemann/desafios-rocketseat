@@ -1,0 +1,58 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+    font-family: 'League Spartan', sans-serif;;
+}
+
+.content-container {
+    margin: 50px 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+header img {
+    width: 390px;
+    margin-bottom: 60px;
+}
+
+section h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    color: var(--title-color);
+
+    margin-bottom: 15px;
+}
+
+section p.bold {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--text-color);
+}
+
+.item2 {
+    background-image: url('../images/read_news.jpg');
+    background-size: cover;
+    background-position: center;    
+}
