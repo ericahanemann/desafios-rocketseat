@@ -88,6 +88,20 @@ section#form .btn-send {
     padding-top: 3px;
 }
 
+.link {
+    padding-top: 100px;
+}
+
+.link a {
+    display: block;
+    text-decoration: none;
+    color: var(--bg-button-color);
+}
+
+.link a img {
+    
+}
+
 .item2 {
     background-image: url('../images/read_news.jpg');
     background-size: cover;
