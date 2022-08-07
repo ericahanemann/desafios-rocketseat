@@ -76,6 +76,12 @@ section#form #email {
     width: 750px;
     height: 48px;
     padding: 10px;
+    color: #000;
+    font-size: 14px;
+    outline: 0;
+}
+
+#email::-webkit-input-placeholder {
     color: var(--form-color);
 }
 
@@ -86,6 +92,8 @@ section#form .btn-send {
     height: 48px;
     background-color: var(--bg-button-color);
     padding-top: 3px;
+
+    cursor: pointer;
 }
 
 .link {
@@ -93,13 +101,22 @@ section#form .btn-send {
 }
 
 .link a {
-    display: block;
+    display: flex;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
     color: var(--bg-button-color);
 }
 
 .link a img {
-    
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.link a:hover {
+    text-decoration: underline;
 }
 
 .item2 {
